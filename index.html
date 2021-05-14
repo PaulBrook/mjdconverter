@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html>
+  
+  <head>
+    <title>MJD Converter</title>
+    <meta name="description" content="A simple Modified Julian Date converter." />
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" >
+    <script type="application/ld+json">{"@context":"http:\/\/schema.org\/","@type":"Brand","name":"MJD Converter","description":"A simple MJD Converter.","url":"http:\/\/mjdconverter.com\/"}</script>
+  </head>
+  
+  <body>
+
+
+
+
+
+    <div class="band1">
+      <center>
+	<h1>MJD CONVERTER</h1>
+      </center>
+    </div>
+    
+    <div id ="band" class="band2">
+      <center>
+	<form>
+	  <span class="span1">
+	    <span class="date">
+	      Year:<br><br>
+	      <input id="year" class="textbox1" type="text" name="year" placeholder="yyyy" maxlength="4">
+	    </span>
+	    <span class="date">
+	      Month:<br><br>
+	      <input id="month" class="textbox1" type="text" name="month" placeholder="mm" maxlength="2">
+	    </span>
+	    <span class="date">
+	      Day:<br><br>
+	      <input id="day" class="textbox1" type="text" name="day" placeholder="dd" maxlength="2">
+	    </span>
+	  </span>
+	    <span class="span2">
+	      <input type="button" onclick="from_mjd();" value="CONVERT" class="change_function">
+	    </span>
+	  <span class="span3">
+	    MJD:<br><br>
+	    <input id="mjd" class="textbox2" type="text" name="mjd" placeholder="NNNNN" maxlength="5">
+	  </span>
+	</form>
+      </center>
+    </div>
+
+    <script src="https://rawgit.com/bgrins/TinyColor/master/tinycolor.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="scripts.js"></script>
+  </body>
+  
+</html>
